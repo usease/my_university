@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usease.myuniversity.AddDeadlineActivity">
+
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/add_deadline_app_bar"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/add_deadline_title"
+        android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_below="@id/add_deadline_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+    android:inputType="text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/deadline_title" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_deadline_linear_layout"
+        android:layout_below="@id/add_deadline_title"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/add_deadline_pick_date_btn"
+            android:text="@string/pick_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/add_deadline_selected_date"
+            android:text="@string/date_has_not_been_selected_yet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/add_deadline_linear_layout"
+        android:id="@+id/add_deadlines_select_color_text"
+        android:text="@string/select_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_below="@id/add_deadline_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.madrapps.pikolo.HSLColorPicker
+            android:layout_gravity="center"
+            android:id="@+id/add_deadline_color_picker"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/circle"
+            android:id="@+id/add_deadlines_selected_color_circle"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

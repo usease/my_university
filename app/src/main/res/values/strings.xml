@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">My University</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="Universities">
+        <item>Westminister International University in Tashkent</item>
+        <item>Samarkand Agricultural Institute</item>
+        <item>Uzbek State World Languages University</item>
+        <item>Tashkent Islamic University</item>
+        <item>Tashkent Medical Academy</item>
+        <item>Karshi Engineering Economic Institute</item>
+        <item>Urgench State University</item>
+        <item>Tashkent Institute of Irrigation and Melioration</item>
+        <item>Tashkent Chemical Technological Institute</item>
+        <item>Karshi State University</item>
+        <item>Tashkent Institute of Textile and Light Industry</item>
+        <item>Gulistan State University</item>
+        <item>Andijan Engineering Economic Institute</item>
+        <item>Andijan State Medical Institute</item>
+        <item>Bukhara Technological Institute of Food and Light Industry</item>
+        <item>National Institute of Fine Art and Design</item>
+        <item>Tashkent State University of Oriental Studies</item>
+        <item>Tashkent State Technical University</item>
+        <item>Namangan State University</item>
+        <item>Samarkand State University</item>
+        <item>Samarkand State Institute of Foreign Languages</item>
+        <item>Samarkand Institute of Economics and Services</item>
+        <item>Jizzakh State Pedagogical Institute</item>
+        <item>Bukhara State University</item>
+        <item>Jizzakh Polytechnical Institute</item>
+        <item>International Business School Kelajak Ilmi</item>
+        <item>The State Conservatory of Uzbekistan</item>
+        <item>Tashkent State University of Economics</item>
+        <item>National University of Uzbekistan</item>
+        <item>Bank-Finance Academy</item>
+        <item>Plekhanov Russian Academy of Economics Filial in Tashkent</item>
+        <item>Tashkent University of Information Technology</item>
+        <item>Management Development Institute of Singapore, Tashkent</item>
+        <item>University of World Economy and Diplomacy</item>
+        <item>Tashkent Financial Institute</item>
+        <item>Tashkent Pharmaceutical Institute</item>
+        <item>Moscow State University Tashkent</item>
+        <item>Tashkent Automobile and Roads Institute</item>
+        <item>Ferghana Polytechnical Institute</item>
+        <item>Kokand State Pedagogical Institute</item>
+    </string-array>
+
+    <string-array name="Months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="Weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <array name="Hours" format="float">
+        <item>10.00</item>
+        <item>11.00</item>
+
+    </array>
+
+    <string-array name="titles1">
+        <item>GROUPMATES</item>
+        <item>CHATS</item>
+        <item>REQUESTS</item>
+    </string-array>
+
+    <string name="title_activity_users_manual">UsersManualActivity</string>
+    <string name="large_text">
+        "<b><i>About My University </i> </b>\n\n"
+
+        "<i>My University is Android application which helps students to easily track university timetables, deadlines and announcements. It is follows Client-to-Client (C2C) business model. In our case, it is student-to-student application. No, universities or university staff are required or used for the correct functioning of the application. </i> \n\n"
+
+        "<b><i>How does it work?  </i> </b> \n\n"
+
+        "<i>When students are creating their accounts,they can either select Course Representatives or Students as their student types. Being Course Representative allows students to create and modify timetables, deadlines and announcements. On the other hand, being Student only allows the privilege to view the content only. Thus, active students at universities are recommended to be CRs. </i> \n\n"
+
+        "<b><i>How do I join my group? </i> </b>\n\n"
+
+        "<i>Whenever student tries to join a group, he/she cannot directly or immediately join the group. Due to security issues and recommendation provided by students, new members who are planning to join a group need to go through Open Voting System.</i>  \n\n"
+
+        "<b><i>What is Open Voting System? </i> </b>\n\n"
+
+        "<i>Open Voting System – creates a request from User X for the group Group X for which he/she wishes to join. Then, all members in that Group X start voting or kicking the User X from the group. On condition that user collects more than 60% accept rate within the next 24 hours, User X will automatically join the group. Otherwise, User X will be kicked and his/her request will be deleted. </i> \n\n"
+
+        "<b><i>How can I vote?</i> </b>\n\n"
+
+        "<i>Already-joined members of the group can easily vote for incoming students who wishes to join their group by going Requests subsection in Chats Section of the application. All of the incoming requests will be listed there. </i> \n\n"
+
+
+        "<b><i>About creating groups </i> </b>\n\n"
+
+        "<i>On condition that a user is creating a new group which does not exist yet in the database, he/she and the next 2 students can join the group automatically. They will not be required to go through Open Voting System.</i>  \n\n"
+    </string>
+
+    <string name="action_settings">Account Settings</string>
+
+    <string name="login">Already Have An Account</string>
+    <string name="register">Need A New Account</string>
+    <string name="timetable">Timetable</string>
+    <string name="deadlines">Deadlines</string>
+    <string name="announcements">Announcements</string>
+    <string name="chats">Chats</string>
+    <string name="announcemement_type">Announcement Type</string>
+    <string name="information">Information</string>
+    <string name="warning">Warning</string>
+    <string name="news">News</string>
+    <string name="coverage">Announcement Coverage</string>
+    <string name="university">University</string>
+    <string name="group_only">My Group Only</string>
+    <string name="enter_title">Enter Title...</string>
+    <string name="enter_desc">Enter Description...</string>
+    <string name="deadline_title">Deadline Title...</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="date_has_not_been_selected_yet">Date has not been selected yet.</string>
+    <string name="select_color">Select Color:</string>
+
+    <string name="module_name">Module Name *</string>
+    <string name="teacher_name">Teacher\'s Name</string>
+    <string name="lesson_type">Lesson Type</string>
+    <string name="room">Room</string>
+    <string name="start_time">Start Time *:</string>
+    <string name="end_time">End Time *:</string>
+    <string name="these_fields_are_cumpulsory">* These fields are compulsory. Make sure you fill all of these fields.</string>
+
+    <string name="enter_message">Enter Message...</string>
+    <string name="edit_your_account">Edit Your Account</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="please_note_that_these_fields">* Please note that changing your Univeristy, Group or Student Type might disqualify you from certain permissions.</string>
+    <string name="select_your_student_type">Select Your Student Type *</string>
+    <string name="login_into_your_account">Log into your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_account">Log in</string>
+
+    <string name="create_your_account">Create Your Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="search_your_university">Search Your University *</string>
+    <string name="group_id">Group ID *</string>
+    <string name="cr">Course Representative</string>
+    <string name="student">Student</string>
+    <string name="create_account">Create Account</string>
+    <string name="please_make_sure_that">* Please make sure that these fields are filled correctly. You might not be correctly allocated.</string>
+
+    <string name="change_picture">Change Picture</string>
+    <string name="edit_profile">Edit Profile</string>
+
+
+    <string name="user_manual">Users\' Manual</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="quit" >Quit</string>
+    <string name="others">Others</string>
+    <string name="select_university">University</string>
+    <string name="add_new_module">Add New Module</string>
+    <string name="creating_module">Creating Module...</string>
+    <string name="make_sure_you_filled_all_fields_with_astersik_sign">Invalid data detected. Make sure you have filled all fields marked with *.</string>
+    <string name="could_not_create_your_module">Could not create your module. Please try again.</string>
+
+    <string name="empty_fields_detected">Empty field(s) detected. Please fill all of fields.</string>
+    <string name="could_not_create_your_announcement">Could not create your announcement. Please try again.</string>
+    <string name="add_deadline">Add Deadline</string>
+    <string name="add_announcement">Add Announcement</string>
+    <string name="empty_fields_detected_make_sure_you_filled_title_and_date_fields">Empty or Invalid data detected. Make sure you have Title and Date fields filled.</string>
+    <string name="could_not_create_your_deadline">Could not create your deadline. Please try again.</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="deadline_date">Deadline:</string>
+    <string name="my_group_only">My Group Only</string>
+    <string name="likes">Likes: </string>
+    <string name="send_message">Send Message</string>
+    <string name="last_seen">Last Seen:</string>
+    <string name="group_status">Group Status:</string>
+    <string name="student_type">Student Type:</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="request_text">This user has requested to join your group!</string>
+    <string name="accept_rate">Accept Rate:</string>
+    <string name="total_accepts">Total Accepts:</string>
+    <string name="already_accepted">You have accepted this user\'s join request!</string>
+    <string name="already_declined">You have declined this user\'s join request!</string>
+    <string name="group_id_nav">Group ID:</string>
+    <string name="university_settings">University:</string>
+
+
+</resources>

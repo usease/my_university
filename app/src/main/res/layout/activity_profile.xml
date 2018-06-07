@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0000"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.usease.myuniversity.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_below="@+id/edit_app_bar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:scaleX="1.4"-->
+        <!--android:scaleY="1.3"-->
+        <ImageView
+
+            android:scaleType="fitXY"
+            android:scaleY="1.1"
+            android:id="@+id/profile_profile_image"
+            android:src="@drawable/default_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#434343"
+            android:text="User Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/profile_name"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="280dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:background="#6ACA25" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:id="@+id/profile_status"
+            android:text="Refreshing..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="@string/student_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="@string/group_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="@string/last_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:id="@+id/profile_type"
+                android:text="Refreshing..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:id="@+id/profile_group_status"
+                android:text="Refreshing..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:id="@+id/profile_last_seen"
+                android:text="Refreshing..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/profile_send_message_btn"
+        android:textColor="#FFF"
+        android:background="#6ACA25"
+        android:text="@string/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
+

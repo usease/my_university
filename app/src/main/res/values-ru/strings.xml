@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Universities">
+        <item>Toshkent Xalqaro Vestminster Universtiteti</item>
+        <item>Samarqand Qishloq Xo\'jaligi Instituti</item>
+        <item>Jahon Tillari Universtiteti</item>
+        <item>Toshkent Islom Universtiteti</item>
+        <item>Toshkent Tibbiyot Instituti</item>
+        <item>Qarshi Iqtisodiy Injineriya Instituti</item>
+        <item>Ugranch Davlat Universtiteti</item>
+        <item>Toshkent Irrigatisya Universtiteti</item>
+        <item>Toshkent Kimyoviy Texnologiylar Instituti</item>
+        <item>Qarshi Davlat Universtiteti</item>
+        <item>Toshkent Tekstil va Yengil Sanoat Instituti</item>
+        <item>Guliston Davlat Universtiteti</item>
+        <item>Andijon Iqtisodiy Injineriya Instituti</item>
+        <item>Andijon Davlat Tibbiyot Instituti</item>
+        <item>Buxoro Oziq Ovqat va Yengil Sanoat Texnolo\'giyalari Instituti</item>
+        <item>Milliy San\'at va Dizayn Instituti</item>
+        <item>Toshkent Davlat Sharqshunoslik Instituti</item>
+        <item>Toshkent Davlat Texnolo\'giya Universtiteti</item>
+        <item>Namangan Davlat Universtiteti</item>
+        <item>Samarqand Davlat Universtiteti</item>
+        <item>Samarqand Jahon Tillari Instituti</item>
+        <item>Samarqand Iqtisod va Ximzat Ko\'rsatish Instituti</item>
+        <item>Jizzax Davlat Pedagogika Instituti</item>
+        <item>Buxoro Davlat Universtiteti</item>
+        <item>Jizzax Politexnika Instituti</item>
+        <item>Kelajak Ilmi Xalqaro Buziness Maktabi</item>
+        <item>Toshkent Davlat Konservatoriyasi</item>
+        <item>Toshkent Davlat Iqtisodyot Universtiteti</item>
+        <item>O\'zbekiston Milliy Universtiteti</item>
+        <item>Bank-Moliya Akademiyasi</item>
+        <item>Toshkent Plexanov Rossiya Iqtisodiyoti Akademiyasi Filiali</item>
+        <item>Toshkent Davlat Informatsion Texnologiyalar Instituti</item>
+        <item>Toshkent Singapur Menejmentni Rivojlantirish Instituti</item>
+        <item>Diplomatisya Instituti</item>
+        <item>Toshkent Moliya Instituti</item>
+        <item>Toshkent Farmasevtika Instituti</item>
+        <item>Toshkent Moskva Davlat Instituti</item>
+        <item>Toshkent Avtomobil Yo\'llari Instituti</item>
+        <item>Farg\'ona Politexnika Instituti</item>
+        <item>Qo\'qon Davlat Pedagogika Instituti</item>
+    </string-array>
+
+    <string-array name="Months">
+        <item>Yanvar</item>
+        <item>Fevral</item>
+        <item>Mart</item>
+        <item>Aprel</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avgust</item>
+        <item>Sentabr</item>
+        <item>Oktabr</item>
+        <item>Noyabr</item>
+        <item>Dekabr</item>
+    </string-array>
+
+    <string-array name="Weekdays">
+        <item>Dushanba</item>
+        <item>Seshanba</item>
+        <item>Chorshanba</item>
+        <item>Payshanba</item>
+        <item>Juma</item>
+        <item>Shanba</item>
+        <item>Yakshanba</item>
+    </string-array>
+
+    <string-array name="titles1">
+        <item>GURUHDOSHLAR</item>
+        <item>CHATLAR</item>
+        <item>RIKVESTLAR</item>
+    </string-array>
+
+
+    <string name="timetable">Dars Jadvali</string>
+    <string name="deadlines">Imtihonlar</string>
+    <string name="announcements">E\'lonar</string>
+    <string name="chats">Chatlar</string>
+    <string name="login">Ro\'hatdan O\'tganman</string>
+    <string name="register">Ro\'yhatdan o\'tish</string>
+
+    <string name="announcemement_type">E\'lon Turi</string>
+    <string name="information">Informatsiya</string>
+    <string name="warning">Ogohlantirish</string>
+    <string name="news">Yangilik</string>
+    <string name="coverage">E\'lon Kengligi</string>
+    <string name="university">Universtitet uchun</string>
+    <string name="group_only">Mening Guruhim Uchun</string>
+    <string name="enter_title">Sarlavhani kiriting...</string>
+    <string name="enter_desc">Detallashtirilgan Ma\'lumot...</string>
+
+    <string name="deadline_title">Imtixon nomi...</string>
+    <string name="pick_date">Kunni Tanlang</string>
+    <string name="date_has_not_been_selected_yet">Kun hali tanlangani yo\'q.</string>
+    <string name="select_color">Rangni Tanlang:</string>
+
+    <string name="module_name">Fanning Nomi *</string>
+    <string name="teacher_name">O\'qituvchi Ismi</string>
+    <string name="lesson_type">Dars Turi</string>
+    <string name="room">Xona</string>
+    <string name="start_time">Boshlanish Vaqti *:</string>
+    <string name="end_time">Tugash Vaqti *:</string>
+    <string name="these_fields_are_cumpulsory">* Bu o\'rinlar to\'ldirilishi shart. Iltimos, ularni to\'ldirib chiqing.</string>
+
+    <string name="enter_message">Xabarni Kiriting...</string>
+    <string name="edit_your_account">Pro\'fil Ma\'lumotlarini O\'zgartirish</string>
+    <string name="save_changes">O\'zgarishlarni Saqlash</string>
+    <string name="please_note_that_these_fields">* Iltimos, Universtitet, Guruh Raqami va Student Turini o\'zgartirayotganingizda ehtiyot bo\'ling. Bu o\'zgarishlar sizdan ma\'lum bir huquqlarni olib qo\'yishi mumkin.</string>
+    <string name="select_your_student_type">Student Turinigizni Tanlang *</string>
+
+    <string name="login_into_your_account">Akkauntga Kirish</string>
+    <string name="email">Elektron Po\'chta</string>
+    <string name="password">Parol</string>
+    <string name="login_account">Kirish</string>
+
+    <string name="create_your_account">Akkaunt Yaratish</string>
+    <string name="full_name">To\'liq Ism Sharifingiz</string>
+    <string name="search_your_university">Universtitetingizni Qidiring *</string>
+    <string name="group_id">Guruh ID si *</string>
+    <string name="cr">Guruh Sardori</string>
+    <string name="student">Student</string>
+    <string name="create_account">Akkaunt Yaratish</string>
+    <string name="please_make_sure_that">* Iltimos, bu yerlar  to\'g\'ri to\'ldirilganligiga e\'tibor bering. Kerakligi guruhga qo\'shila olmasligingiz mumkin. </string>
+
+    <string name="change_picture">Rasmni O\'zgartirish</string>
+    <string name="edit_profile">Tahrirlash</string>
+
+
+    <string name="user_manual">Yo\'riqnoma</string>
+    <string name="account_settings">Pro\'fil Sozlanmalari</string>
+    <string name="log_out">Akkauntdan Chiqish</string>
+    <string name="quit" >Ilovadan Chiqish</string>
+    <string name="others">Qo\'shimcha</string>
+
+    <string name="select_university">Universtitet</string>
+
+    <string name="add_new_module">Yangi Fan Qo\'shish</string>
+    <string name="creating_module">Fan qo\'shilyapti....</string>
+    <string name="make_sure_you_filled_all_fields_with_astersik_sign">To\'g\'ri kelmaydigan ma\'lumotlar aniqlandi . Iltimos, hamma yulduzchali (*) joylarni to\'ldirib chiqing.</string>
+    <string name="could_not_create_your_module">Yangi fan yaratishdagi xatolik. Iltimos, yana urunib ko\'ring. </string>
+
+
+    <string name="empty_fields_detected">Bo\'sh o\'rinlar aniqlandi. Iltmos, hamma o\'rinlarni to\'ldirib chiqing.</string>
+    <string name="could_not_create_your_announcement">E\'lon yaratilmadi. Iltimos, yana urinib ko\'ring. </string>
+    <string name="add_deadline">Yangi imtihon qo\'shish</string>
+    <string name="add_announcement">Yangi e\'lon qo\'shish</string>
+    <string name="empty_fields_detected_make_sure_you_filled_title_and_date_fields">Bo\'sh yoki noto\'g\'ri to\'ldirilgan o\'rinlar aniqlandi. Imtihon Nomi va Sanasi to\'ldirilishi shart.</string>
+    <string name="could_not_create_your_deadline">Imtihon yaratishdagi xatolik. Yana urinib ko\'ring. </string>
+    <string name="days">Kun</string>
+    <string name="hours">Soat</string>
+    <string name="minutes">Daqiqa</string>
+    <string name="seconds">Sekund</string>
+    <string name="deadline_date">Sana:</string>
+    <string name="my_group_only">Mening Guruhim</string>
+    <string name="likes">Layklar:</string>
+    <string name="send_message">Xabar Jo\'natish</string>
+    <string name="last_seen">So\'nggi Tashrif:</string>
+    <string name="group_status">Guruh A\'zoligi:</string>
+    <string name="student_type">Student Turi:</string>
+    <string name="decline">Yo\'q</string>
+    <string name="accept">Ha</string>
+    <string name="request_text">Bu foydalanuvchi sizning guruhingizga qoshilmoqchi!</string>
+    <string name="accept_rate">Rozilik %:</string>
+    <string name="total_accepts">Rozilar:</string>
+    <string name="already_accepted">Siz allaqachon rikvestni qabul qilgansiz!</string>
+    <string name="already_declined">Siz allaqachon bu rikvestni inkor etgansiz!</string>
+    <string name="group_id_nav">Guruh IDsi:</string>
+    <string name="action_settings">Pro\'fil Sozlanmalari</string>
+    <string name="university_settings">Universtitet:</string>
+
+
+    <string name="large_text">
+        "<i><b>My University Ilovasi Haqida</b> </i>\n\n"
+
+        "<i> My University ilovasi studentlarga dars jadvali, yaqinlashib kelayotgan imtihonlar, yangi e\'lonar va chat qulaylik va xususiyatlarini taqdim etadi. Ilova studentlar o\'rtasida yurtiladi va hech qanday universtitet aralashuvlariga mo\'ljallanmagan. Ilova ichidagi ma\'lumotlar faqat studentlar tomonidan o\'zgartiriladi. </i>\n\n"
+
+        "<i><b>Ilova Qanday Ishlaydi?</b></i>\n\n"
+
+        "<i>Studentlar o\'z akkauntlarini yaratishayotganda, ular yo Guruh Sardori yo Student turlaridan birini tanlashlari kerak. Guruh Sardori bo\'lish ilova ichidagi guruh ma\'lumotlarini o\'zgartirish huquqini beradi. Student turidagi foydalanuchilar bo\'lsa, faqat ma\'lumotlarni ko\'rishlari mumkin.  Shuning uchun, faol studentlar Guruh Sardorlari bo\'lishlari tavsiya etiladi. </i>\n\n"
+
+        "<i><b> Men Qanday Qilib O\'z Guruhimga Qo\'shilaman? </b> </i>\n\n"
+
+        "<i>Agar siz foydalanuchi sifatida o\'z guruhingizga qo\'shilmoqchi bo\'lsangiz, bu narsa tog\'ridan tog\'ri sodir bo\'lmaydi. Havsizlikni saqlash maqsadida, yangi foydalanuvchilar Ochiq Ovoz Berish Sistemasidan ot\'ishlari kerak. </i>\n\n"
+
+        "<i><b>Ochiq Ovoz Berish Sistemasi Nima? </b></i>\n\n"
+
+        "<i>Ochiq Ovoz Berish Sistemasi – guruhga qoshilishni istayotgan istalgan foydalanuchi X uchun yangi rikvest yaratiladi. Rikvest foydalanuvchi qaysi guruhga qo\'shilishni istasa shu guruhda yaratiladi. Keyin, shu guruh a\'zolari ushbu foydalanuvchining yangi qoshilish tog'risidagi rikvestini ko\'rib saylashni boshladi. Ha - rozi bolishsa, Yo\'q agar bu foydalanuvchini qo\'shilishini hohlamashmasa. Agar ushbu rikvest keyingi 24 soat ichida 60% foizdan kop ovoz top\'lasa, bu foydalanuvchi avtomatik tarzda guruhga qoshiladi. Aks hollarda, foydalanuvchining rikvest ochirladi va u guruhga qoshila olmaydi. </i>\n\n"
+
+        "<i><b>Men Qanday Qilib Ovoz Berishim Mumkin?</b></i>\n\n"
+
+        "<i>Agar siz allaqachon guruhga qoshilgan bo\'lsangiz, sizda ovoz berish huquqi bo\'ladi. Siz kelayotgan rikvestlarga Chatlar bo\'limining Rivest qismidan ovoz berishingiz mumkin. </i>\n\n"
+
+
+        "<i><b>Guruhlar Yaratish To\'g\'risida</b></i>\n\n"
+
+        "<i>Agarda foydalanuchi qo\'shilmoqchi bolgan guruh hali yaratilmagan bo\'lsa, guruhni shu foydalanuvchi ozi yaratadi. Bu hollarda, guruhni yaratgan foydalanuvchi va undan keyingi 2 nafar studentlar guruhga avtomatik tarzda qoshilishalari mumkin bo\'ladi. Ochiq Ovoz Berish Sistemasi bu hollarda shu dastlabki 3 student uchun qo\'llanilmaydi. </i>\n\n"
+    </string>
+
+</resources>

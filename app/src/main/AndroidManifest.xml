@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usease.myuniversity">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyUniversity"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- The line above was added after creating MyUniversity class. It is necessary to store data locally -->
+
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ChatsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".StartActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:parentActivityName=".SettingsActivity" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".NotMemberProfileActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".ChatsActivity" />
+        <activity
+            android:name=".AnnouncementsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddAnnouncementActivity"
+            android:parentActivityName=".AnnouncementsActivity" />
+        <activity
+            android:name=".DeadlinesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddDeadlineActivity"
+            android:parentActivityName=".DeadlinesActivity" />
+        <activity
+            android:name=".TimetableActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddTimetableActivity"
+            android:parentActivityName=".TimetableActivity" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsersManualActivity"
+            android:label="@string/title_activity_users_manual"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usease.myuniversity.NotMemberProfileActivity">
+
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--android:scaleX="1.4"-->
+        <!--android:scaleY="1.3"-->
+        <ImageView
+
+            android:scaleType="fitXY"
+            android:scaleY="1.1"
+            android:id="@+id/notmember_profile_image"
+            android:src="@drawable/default_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#434343"
+            android:text="User Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/notmember_name"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="280dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:id="@+id/notmember_status"
+            android:text="Refreshing..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="@string/student_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="@string/group_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text="@string/last_seen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:id="@+id/notmember_type"
+                    android:text="Refreshing..."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:id="@+id/notmember_group_status"
+                    android:text="Refreshing..."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15dp"
+                    android:id="@+id/notmember_last_seen"
+                    android:text="Refreshing..."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/notmember_request_text"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="@string/request_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/accept_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+
+                        android:gravity="end"
+                        android:id="@+id/notmember_accept_percentage"
+                        android:text="N/A"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/total_accepts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:gravity="end"
+                        android:layout_weight="1"
+                        android:id="@+id/notmember_total_accepts"
+                        android:text=" N/A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/notmember_accept_request_btn"
+                android:background="#6ACA25"
+                android:textColor="#FFF"
+                android:text="@string/accept"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <Button
+                android:id="@+id/notmember_decline_request_btn"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorAccent"
+                android:textColor="#FFF"
+                android:text="@string/decline"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

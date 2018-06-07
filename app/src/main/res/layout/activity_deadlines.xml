@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usease.myuniversity.DeadlinesActivity">
+
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/deadlines_app_bar" />
+
+    <Spinner
+
+        android:textAlignment="center"
+        android:id="@+id/deadlines_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deadlines_app_bar">
+
+    </Spinner>
+    <View
+
+        android:layout_below="@id/deadlines_spinner"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/deadlines_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deadlines_spinner">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

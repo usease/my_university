@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/announcement_single_user_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/default_avatar" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/announcement_single_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/announcement_single_user_image"
+                android:text="Azizjon Kholmatov"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/announcement_single_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/announcement_single_name"
+                android:layout_below="@+id/announcement_single_name"
+                android:text="Feb 12, 2018"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/type_layout"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/announcement_single_warning_image"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/warning_icon_warning" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:textColor="@color/colorRed"
+                    android:id="@+id/announcement_single_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Warning"
+                    android:textSize="8dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/type_layout"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/announcement_single_coverage_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/group_icon" />
+                <TextView
+                    android:paddingTop="5dp"
+                    android:textColor="@color/colorGreen"
+                    android:id="@+id/announcement_single_coverage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Group Only"
+                    android:textSize="8dp" />
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/announcement_single_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignStart="@+id/announcement_single_title"
+                android:layout_below="@+id/announcement_single_user_image"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_announcement" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/announcement_single_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/announcement_single_image"
+                android:text="Marks on DBSD module have been published. Please visit srs.wiut.uz to check your marks! Cheers!"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/announcement_single_title">
+
+                <ImageButton
+                    android:background="@android:color/transparent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/announcement_single_like_btn"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/heart_icon_gray" />
+
+                <TextView
+                    android:layout_toLeftOf="@+id/announcement_single_like_count"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/likes"/>
+
+                <TextView
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/announcement_single_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center"
+                    android:text="15" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+

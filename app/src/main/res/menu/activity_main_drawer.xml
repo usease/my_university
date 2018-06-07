@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable_icon"
+            android:title="@string/timetable" />
+        <item
+            android:id="@+id/nav_deadlines"
+            android:icon="@drawable/deadlines_icon"
+            android:title="@string/deadlines" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/announcements_icon"
+            android:title="@string/announcements" />
+        <item
+            android:id="@+id/nav_chats"
+            android:icon="@drawable/chats_icon"
+            android:title="@string/chats" />
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_manual"
+                android:icon="@drawable/book_icon"
+                android:title="@string/user_manual" />
+            <item
+                android:id="@+id/nav_account_settings"
+                android:icon="@drawable/settings_icon"
+                android:title="@string/account_settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="@string/log_out" />
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/home_icon"
+                android:title="@string/quit" />
+        </menu>
+    </item>
+
+</menu>

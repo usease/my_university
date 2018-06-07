@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/request_user_single_image"
+        android:src="@drawable/default_avatar"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="User Display Name"
+        android:textColor="@android:color/black"
+        android:id="@+id/user_single_name"
+        android:layout_alignTop="@+id/request_user_single_image"
+        android:layout_alignStart="@+id/request_single_user_date" />
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:visibility="invisible"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignEnd="@+id/view2"
+        android:layout_alignTop="@+id/request_user_single_image"
+        android:src="@drawable/online_icon" />
+    <TextView
+
+        android:id="@+id/request_single_user_date"
+        android:text="Hi there, I am using My University App!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_alignBottom="@+id/request_user_single_image"
+        android:layout_toEndOf="@+id/request_user_single_image"
+        android:layout_marginBottom="12dp" />
+
+    <View
+        android:background="#636363"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/request_single_user_date"
+        android:layout_gravity="center"
+        android:id="@+id/view2" />
+</RelativeLayout>

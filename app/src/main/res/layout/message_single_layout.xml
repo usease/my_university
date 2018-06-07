@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/message_single_layout"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_single_image"
+        android:src="@drawable/default_avatar"
+        android:layout_width="56dp"
+        android:layout_height="56dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:paddingBottom="5dp"
+        android:id="@+id/message_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/message_single_image"
+        android:text="Aziz Kholmatov"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/message_single_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/message_single_name"
+        android:layout_alignBottom="@+id/message_single_name"
+        android:layout_toEndOf="@+id/message_single_name"
+        android:text="20:27"
+        android:textSize="12dp" />
+
+    <TextView
+        android:background="@drawable/current_user_border"
+        android:paddingTop="10dp"
+        android:id="@+id/message_single_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/message_single_name"
+        android:layout_below="@+id/message_single_name"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:text="Hello guys, what the hell is going on?" />
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_alignStart="@+id/message_single_name"
+        android:layout_below="@id/message_single_message"
+        android:layout_toRightOf="@id/message_single_image"
+        android:id="@+id/message_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
